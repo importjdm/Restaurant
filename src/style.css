@@ -1,0 +1,24 @@
+body {
+  display: grid;
+  /*grid-template-columns: colu; */
+  grid-template-rows: 1fr 2fr;
+}
+
+#content {
+  grid-row: 1 / 2;
+}
+
+h1 {
+  font-size: large;
+  color: red;
+  margin: none;
+}
+
+p {
+  margin: none;
+}
+
+.img {
+  background-image: url("./store_front.jpg");
+  background-repeat: no-repeat;
+}
